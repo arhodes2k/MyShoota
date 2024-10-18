@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 889772647}
   - component: {fileID: 889772646}
   - component: {fileID: 889772645}
+  - component: {fileID: 889772648}
   m_Layer: 0
   m_Name: MadMax
   m_TagString: Untagged
@@ -666,7 +667,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -643094106, guid: a551c628651fb49c99748fe506f1c2ca, type: 3}
+  m_Sprite: {fileID: -446040228, guid: bfce31a253a9c4612a97d94a053f6880, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -763,6 +764,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!95 &889772648
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889772642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4c699e1ca69e4008a515301681eadc1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1043647907
 GameObject:
   m_ObjectHideFlags: 0
