@@ -20,4 +20,9 @@ public class PlayerController : MonoBehaviour
         transform.Translate(moveX * speed * Time.deltaTime, moveY * speed * Time.deltaTime, 0f);
     }
 
+    void OnTriggerEnter2D (Collider2D collision){
+        if (collision.tag == "Portal"){
+            transform.position = new Vector3(-transform.position.x, transform.position.y, transform.position.z);
+        }
+    }
 }
